@@ -1,0 +1,46 @@
+.setting {
+  padding: 20px;
+  .tools {
+    padding: 0 0 20px;
+  }
+}
+.form > section[role="body"] {
+  padding: 20px 27px;
+  text-align: left;
+  select {
+    height: 30px; line-height: 30px;
+  }
+}
+
+.safety > section[role="body"] {
+  padding: 20px 27px;
+  text-align: left;
+  input[type="checkbox"] {
+    width: 20px; height: 20px; display: inline-block; vertical-align: middle;
+  }
+  input[type="text"] {
+    width: 55px; height: 24px; margin: 0 5px;
+  }
+  input:read-only {
+    background-color: #ddd;
+    &:focus {
+      border-color: inherit;
+    }
+  }
+  label[data-react-toolbox="checkbox"] {
+    margin: 10px 0 0 0px !important;
+    span[data-react-toolbox="label"] {
+      color: #666 !important;
+    }
+  }
+  .onlineNum { margin-left: 20px; }
+  dl {
+    dt {
+      border-bottom: solid 1px #ddd; padding-bottom: 5px;
+      color: #0dd6a8; font-size: 14px;
+    }
+    p {
+      margin-top: 10px;
+    }
+  }
+}
